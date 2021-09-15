@@ -1,7 +1,7 @@
 
 monogatari.script ({
 	'Start': [
-		'UVA, En un lugar de la Mancha,',
+		'MANZANA, En un lugar de la Mancha,',
 		'de cuyo nombre no quiero acordarme,',
         
         'jump cap1',
