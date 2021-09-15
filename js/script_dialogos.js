@@ -1,7 +1,7 @@
 
 monogatari.script ({
 	'Start': [
-		'Ahora estamos en reunion',
+		'Ahora estamos en reunion jkjdkjslakjdlaskj',
 		
 		'end',
 	]
