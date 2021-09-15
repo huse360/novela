@@ -1,8 +1,8 @@
 
 monogatari.script ({
 	'Start': [
-		'ABC Este es el primer texto',
-		'Este es el segundo texto',
+		'Ahora estamos en reunion',
+		
 		'end',
 	]
 });
