@@ -1,7 +1,7 @@
 
 monogatari.script ({
 	'Start': [
-		'ASDF En un lugar de la Mancha,',
+		'America, En un lugar de la Mancha,',
 		'de cuyo nombre no quiero acordarme,',
         
         'jump cap1',
