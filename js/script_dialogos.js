@@ -10,7 +10,7 @@ monogatari.script ({
  'jump cap3',
  ],
  'cap1': [
- 'En un lugar de la Mancha,',
+ 'Primera frase En un lugar de la Mancha,',
  'de cuyo nombre no quiero acordarme,',
 
  'jump cap2',
