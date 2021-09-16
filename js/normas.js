@@ -1,7 +1,10 @@
 monogatari.script ({
 
- 'Start': [
-   
+ 'InicioNormas': [
+    
+   'Primera frase de las normas...',
+   'end',
+  
  ],
   
 });
