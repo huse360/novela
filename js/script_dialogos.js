@@ -1,7 +1,9 @@
 monogatari.script ({
 	'Start': [ 
 		
-		'Hola Mundo¡',
+		'En un lugar de la Mancha',
+		'de cuyo nombre no quiero acordarme',
+		'no ha mucho tiempo que vivia un hidalgo',
 		
 		'end',
 		
