@@ -15,7 +15,10 @@ monogatari.script ({
 
  'jump cap2',
  ],
- 'Start': [
- 'jump cap1',
- ],  
+	
+ //'Start': [
+ //'jump cap1',
+ //],  
+	
+	
 });
