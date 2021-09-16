@@ -1,5 +1,9 @@
 monogatari.script ({
-	'Start': [
+	'Start': [ 
+		
+		'Hola Mundo¡',
+		
+		'end',
 		
 	]
 });
