@@ -1,11 +1,21 @@
 monogatari.script ({
-	'Start': [ 
-		
-		'En un lugar de la Mancha',
-		'de cuyo nombre no quiero acordarme',
-		'no ha mucho tiempo que vivia un hidalgo',
-		
-		'end',
-		
-	]
+	'Start': [
+ 'jump cap1',
+ ],
+ 'cap1': [
+ 'En un lugar de la Mancha,',
+ 'de cuyo nombre no quiero acordarme,',
+
+ 'jump cap2',
+ ],
+ 'cap2': [
+ 'no ha mucho tiempo que vivía un hidalgo',
+ 'de los de lanza en astillero, ',
+
+ 'jump cap3',
+ ],
+ 'cap3': [
+ 'adarga antigua, rocín flaco y galgo corredor.',
+ 'end',
+ ], 
 });
