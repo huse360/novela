@@ -121,11 +121,25 @@ monogatari.characters ({
 
 
 monogatari.script ({
-
 	
- 'Start': [
-    'jump InicioNormas',
- ],  
+	'Start': [    
+		{
+			'Choice': {	
+				'constitucion': {	
+					'Text': 'Constitución de Empresas',
+					'Do': 'jump Start_Constitucion'	
+				},
+	
+				'normas': {	
+					'Text': 'Normas',
+					'Do': 'jump Start_Normas'					
+				},
+				
+			}
+		},
+	
+	],
+	 
 	
 	
 });
