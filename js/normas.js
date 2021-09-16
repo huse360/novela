@@ -1,0 +1,7 @@
+monogatari.script ({
+
+ 'Start': [
+   
+ ],
+  
+});
