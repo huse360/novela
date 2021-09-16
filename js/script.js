@@ -118,3 +118,14 @@ monogatari.characters ({
 
 });
 
+
+
+monogatari.script ({
+
+	
+ 'Start': [
+    'jump InicioNormas',
+ ],  
+	
+	
+});
