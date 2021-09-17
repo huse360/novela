@@ -8,7 +8,7 @@ monogatari.script ({
 	
 	'Induccion': [
 		
-		'Querido aprendiz, bienvenido',
+		'luerido aprendiz, bienvenido',
 		
 		'El dia de hoy estarás en un nuevo mundo para ti',
 		
