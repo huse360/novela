@@ -75,39 +75,82 @@ monogatari.assets ('scenes', {
 
 // Define the Characters
 monogatari.characters ({
-	
-	't': { 
-		
-	     name: 'Teresa',
-	     color: '#F0418D',		
-	},
-	
 
-	
+	't': {
+		name: 'Tereis',
+		color: '#FF3399',
+
+		directory: 'tereis',
+
+		sprites: {
+			normal: 'normal.png',
+			feliz: 'feliz.png',
+			cansada: 'cansada.png',
+			brava: 'brava.png',
+			shock: 'shock.png',
+			triste: 'triste.png',
+		},
+
+	},
+
+
 });
 
 
 
 monogatari.script ({
-	
-	'Start': [    
+
+	'Start': [
 		{
-			'Choice': {	
-				'constitucion': {	
+			'Choice': {
+
+				'bienvenida': {
+					'Text': 'La Bienvenida',
+					'Do': 'jump Start_Bienvenida'
+				},
+
+				'constitucion': {
 					'Text': 'Constitución de Empresas',
-					'Do': 'jump Start_Constitucion'	
+					'Do': 'jump Start_Constitucion'
 				},
-	
-				'normas': {	
+
+				'normas': {
 					'Text': 'Normas',
-					'Do': 'jump Start_Normas'					
+					'Do': 'jump Start_Normas'
 				},
-				
+
 			}
 		},
-	
+
 	],
-	 
-	
-	
+
+
+
 });
+
+
+
+/*
+monogatari.script ({
+
+	'Start': [
+
+		'q: ...es gran servicio quitar tan mala simiente de gigantes.',
+		's: ¿Qué gigantes?',
+		'q: Aquellos que allí ves, de los brazos largos.',
+		's: Mire vuestra merced que aquellos que allí se parecen no son gigantes,',
+		's: sino molinos de viento, y lo que en ellos parecen brazos son las aspas',
+		'q: Bien parece que no estás cursado en esto de las aventuras...',
+		's: ¡Válame Dios!',
+		's: ¿No le dije yo a vuestra merced que mirase bien?',
+		'q: Calla, amigo Sancho,',
+		'q: que las cosas de la guerra más que otras',
+		'q: están sujetas a continua mudanza;',
+
+
+	],
+
+
+
+});
+*/
