@@ -77,45 +77,7 @@ monogatari.assets ('scenes', {
 monogatari.characters ({
 	
 
-	'gato': {
-		name: 'Michi',
-		color: '#5bcaff',
-		directory: 'cat',
-		
-		expressions: {
-            molesto: 'expressions\\angry1.png',
-			molesto2: 'expressions\\angry2.png',  
-            normal: 'expressions\\normal.png',
-            sueño: 'expressions\\closed-eyes.png',  
-            
-        },
-		default_expression: 'normal',
-		// nvl: true,
-	}
-
-	,'hombre': {
-		name: 'Sr. Bigotes',
-		color: '#5bcaff',
-		directory: 'gentleman',
-		
-		expressions: {
-            molesto: 'expressions\\angry.png',  
-            feliz: 'expressions\\happy.png',
-            broma: 'expressions\\joke.png',  
-			normal: 'expressions\\normal.png',  
-            triste: 'expressions\\sad.png',
-            serio: 'expressions\\serious.png',
-			bueh: 'expressions\\well.png',  
-            preocupado: 'expressions\\worry.png',
-            
-            
-        },
-		default_expression: 'normal',
-		// nvl: true,
-	},
 	
-
-
 });
 
 
