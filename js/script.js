@@ -76,6 +76,16 @@ monogatari.assets ('scenes', {
 // Define the Characters
 monogatari.characters ({
 	
+	't': { 
+		
+	     name: 'Teresa',
+	     color: '#F0418D',
+	  
+		
+		
+		
+	}
+	
 
 	
 });
