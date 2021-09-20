@@ -79,12 +79,8 @@ monogatari.characters ({
 	't': { 
 		
 	     name: 'Teresa',
-	     color: '#F0418D',
-	  
-		
-		
-		
-	}
+	     color: '#F0418D',		
+	},
 	
 
 	
