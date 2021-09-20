@@ -1,16 +1,16 @@
 monogatari.script ({
-
-	'Finalizacion': [
 	
-		'En el que aprenderás de una manera diferente',		
+	'Start_Constitucion': [
 		
-		'end',
+		'jump Induccion',
       
 	],
+
+	
 	
 	'Induccion': [
 		
-		'Querido aprendiz, bienvenido',
+		't: Querido aprendiz, bienvenido',
 		
 		'El dia de hoy estarás en un nuevo mundo para ti',
 		
@@ -19,13 +19,17 @@ monogatari.script ({
       
 	],
 	
+	'Finalizacion': [
 	
-	
-	'Start_Constitucion': [
+		'En el que aprenderás de una manera diferente',		
 		
-		'jump Induccion',
+		'end',
       
 	],
+	
+	
+	
+	
 	
   });
   
