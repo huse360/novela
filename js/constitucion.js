@@ -12,7 +12,7 @@ monogatari.script ({
 		
 		't: Querido aprendiz, bienvenido',
 		
-		'El dia de hoy estarás en un nuevo mundo para ti',
+		't: El dia de hoy estarás en un nuevo mundo para ti',
 		
 		'jump Finalizacion',		
 		
