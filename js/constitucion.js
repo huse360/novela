@@ -2,11 +2,46 @@ monogatari.script ({
 	
 	'Start_Constitucion': [
 		
-		'jump Induccion',
+		'jump eleccion',
       
 	],
 
 	
+	
+	'eleccion': [
+		
+		{'Choice':{
+			'b1': {
+				
+			    'Text': 'Ir a la parte 1',
+			    'Do': 'jump boton1',			      
+			      },
+			
+			
+			'b2': {
+				
+			    'Text': 'Ir a la parte 2',
+			    'Do': 'jump boton2',			      
+			      },
+			
+			  },
+		 
+		
+		},	
+		
+      
+	],
+	
+	
+	'boton1': [
+		't: Escogiste el boton1',
+		'end',
+	],
+	
+	'boton2': [
+		't: Escogiste el boton2',
+		'end',
+	],
 	
 	'Induccion': [
 		
@@ -18,6 +53,7 @@ monogatari.script ({
 		
       
 	],
+	
 	
 	'Finalizacion': [
 	
