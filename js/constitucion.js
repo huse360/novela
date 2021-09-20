@@ -11,6 +11,8 @@ monogatari.script ({
 	'eleccion': [
 		
 		{'Choice':{
+			
+			'Dialog': 't: Escoge una opción',
 			'b1': {
 				
 			    'Text': 'Ir a la parte 1',
