@@ -21,7 +21,7 @@ monogatari.script ({
 	
 	'Finalizacion': [
 	
-		'En el que aprenderás de una manera diferente',		
+		't: En el que aprenderás de una manera diferente',		
 		
 		'end',
       
