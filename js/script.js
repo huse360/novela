@@ -50,6 +50,8 @@ monogatari.assets ('music', {
 // Define the voice files used in the game.
 monogatari.assets ('voices', {
 
+	 'tereis_bienvenida': 'tereis_bienvenida.mp3', 
+	 
 });
 
 // Define the sounds used in the game.

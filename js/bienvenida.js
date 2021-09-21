@@ -3,6 +3,7 @@ monogatari.script ({
 	'Start_Bienvenida': [
   
 		'show character t feliz at left with fadeIn',	
+		'play voice tereis_bienvenida',
 		't: Querido aprendiz, bienvenido a este mundo de aprendizaje interactivo,',
                 't: en donde te sumergirás a aprender de una manera diferente,', 
 		't: pues tus conocimientos serán tu mecanismo de defensa para lograr la meta.',
