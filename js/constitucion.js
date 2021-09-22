@@ -8,7 +8,7 @@ monogatari.script ({
 
 	
 	
-	'Actividadeconómica': [
+	'Actividadeconomica': [
 		
 		't: Cuando se tiene la idea de constituir una empresa,',
 		't: se debe tener claridad cuál va hacer el objeto social',
