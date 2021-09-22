@@ -27,11 +27,12 @@ monogatari.script ({
 		't: https://www.rues.org.co/, aquí encontrarás',
 		't: si ese nombre que has tenido en cuenta para formalizar tu empresa,',
 		't: ya existe, en ese caso, piensa en otro, no puedes crear otra empresa con el mismo nombre',
+		'jump logodelaempresa',
 		
 		
 	],
 	
-	'boton2': [
+	'logodelaempresa': [
 		't: Escogiste el boton2',
 		'end',
 	],
