@@ -33,8 +33,17 @@ monogatari.script ({
 	],
 	
 	'logodelaempresa': [
-		't: Escogiste el boton2',
-		'end',
+		't: Querido aprendiz, teniendo en cuenta la actividad económica,',
+		't: seleccionada y el nombre escogido, debes diseñar, una imagen',
+		't: que identifique tu empresa, que a donde quiera que esté presente,',
+		't: tu producto, lleve consigo esa imagen que solo lo identifica a él ,',
+		't: por su calidad, color o presentación,',
+		't: te recomendamos el siguiente enlace',
+		't: https://www.brandcrowd.com/maker/logos?text=ice+cream+&SearchText=&LogoStyle=0&LogoLayoutOrientation=&Colors=&FontStyles=',
+		't: te puede servir de gran ayuda para poder construir el logotipo,', 
+                't: juega con los colores, pero ante todo maneja sobriedad. ¡Adelante!',
+
+		
 	],
 	
 	'Induccion': [
