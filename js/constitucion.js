@@ -2,13 +2,13 @@ monogatari.script ({
 	
 	'Start_Constitucion': [
 		
-		'jump Nombre de la empresa',
+		'jump Nombredelaempresa',
       
 	],
 
 	
 	
-	'Nombre de la empresa': [
+	'Nombredelaempresa': [
 		
 		't: Cuando se tiene la idea de constituir una empresa,',
 		't: se debe tener claridad cuál va hacer el objeto social',
