@@ -2,26 +2,33 @@ monogatari.script ({
 	
 	'Start_Constitucion': [
 		
-		'jump Nombredelaempresa',
+		'jump Actividadeconomica',
       
 	],
 
 	
 	
-	'Nombredelaempresa': [
+	'Actividadeconómica': [
 		
 		't: Cuando se tiene la idea de constituir una empresa,',
 		't: se debe tener claridad cuál va hacer el objeto social',
 		't: tenemos para ti el listado de actividades económicas,',
 		't: que podrás escoger de acuerdo a su código, nombre o palabra clave',
-		
+		'jump Nombredelaempresa',
       
 	],
 	
 	
-	'boton1': [
-		't: Escogiste el boton1',
-		'end',
+	'Nombredelaempresa': [
+		't: Querido aprendiz, el siguiente paso será idear el nombre',
+		't: para esa empresa que tanto has anhelado,',
+		't: te recomendamos que antes de definirlo como tal',
+		't: consultes en la siguiente página,',
+		't: https://www.rues.org.co/, aquí encontrarás',
+		't: si ese nombre que has tenido en cuenta para formalizar tu empresa,',
+		't: ya existe, en ese caso, piensa en otro, no puedes crear otra empresa con el mismo nombre',
+		
+		
 	],
 	
 	'boton2': [
