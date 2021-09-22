@@ -2,34 +2,18 @@ monogatari.script ({
 	
 	'Start_Constitucion': [
 		
-		'jump eleccion',
+		'jump Nombre de la empresa',
       
 	],
 
 	
 	
-	'eleccion': [
+	'Nombre de la empresa': [
 		
-		{'Choice':{
-			
-			'Dialog': 't: Escoge una opción',
-			'b1': {
-				
-			    'Text': 'Ir a la parte 1',
-			    'Do': 'jump boton1',			      
-			      },
-			
-			
-			'b2': {
-				
-			    'Text': 'Ir a la parte 2',
-			    'Do': 'jump boton2',			      
-			      },
-			
-			  },
-		 
-		
-		},	
+		't: Cuando se tiene la idea de constituir una empresa,',
+		't: se debe tener claridad cuál va hacer el objeto social',
+		't: tenemos para ti el listado de actividades económicas,',
+		't: que podrás escoger de acuerdo a su código, nombre o palabra clave',
 		
       
 	],
