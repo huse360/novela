@@ -32,6 +32,8 @@ monogatari.script ({
 		
 	],
 	
+	
+	
 	'logodelaempresa': [
 		't: Querido aprendiz, teniendo en cuenta la actividad económica,',
 		't: seleccionada y el nombre escogido, debes diseñar, una imagen',
@@ -42,10 +44,29 @@ monogatari.script ({
 		't: https://www.brandcrowd.com/maker/logos?text=ice+cream+&SearchText=&LogoStyle=0&LogoLayoutOrientation=&Colors=&FontStyles=',
 		't: te puede servir de gran ayuda para poder construir el logotipo,', 
                 't: juega con los colores, pero ante todo maneja sobriedad. ¡Adelante!',
+		'jump clasificaciondetuempresa',
+		
+		
+      'clasificaciondetuempresa': [
+		't: Querido empresario (Aprendiz), usted debe clasificar su empresa,',
+		't: de acuerdo con las diferentes opciones estudiadas de clasificación',
+		't: ejemplo, si su empresa es una distribuidora de helados,',
+		't: deben hacer la clasificación respectiva para tu empresa,',
+		't: para este caso la clasificación según su actividad económica sería, comercial,',
+		't: porque compra productos terminados y los vende de la misma manera,',
+		't: según la procedencia de capital, sería privado, porque todo el capital',
+		't: proviene de fuentes privadas, según el número de propietarios, sería sociedad', 
+                't: porque se va constituir con 2 o más personas y según el objetivo, sería con animo de lucro,',
+		't: porque su finalidad es obtener una utilidad',
+		't: se sugiere construir un esquema clasificatorio',
+		't: o mapa mental para dejar claridad en esta clasificación,
 
 		
 	],
 	
+
+		
+	],
 	'Induccion': [
 		
 		't: Querido aprendiz, bienvenido',
