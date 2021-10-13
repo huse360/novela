@@ -47,6 +47,8 @@ monogatari.script ({
 		'jump clasificaciondetuempresa',
 		
 		
+	],
+		
       'clasificaciondetuempresa': [
 		't: Querido empresario (Aprendiz), usted debe clasificar su empresa,',
 		't: de acuerdo con las diferentes opciones estudiadas de clasificación',
