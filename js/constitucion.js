@@ -67,8 +67,6 @@ monogatari.script ({
 	],
 	
 
-		
-	],
 	'Induccion': [
 		
 		't: Querido aprendiz, bienvenido',
