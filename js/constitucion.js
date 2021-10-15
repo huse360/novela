@@ -17,7 +17,7 @@ monogatari.script ({
 				},
 			'p2': {
 				'Text': 'Nombre de la empresa',
-				'Do': 'Nombredelaempresa'
+				'Do': 'jump Nombredelaempresa'
 				},
 			}
 	},
