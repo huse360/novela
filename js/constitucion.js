@@ -95,7 +95,7 @@ monogatari.script ({
 
 	'cuentabancaria': [
 		
-		't: Estimado empresario, te daré un formato de apertura de la cuenta bancaria,'
+		't: Estimado empresario, te daré un formato de apertura de la cuenta bancaria',
 		't: desde está cuenta deben manejar todos los pagos e ingresos,',
 		't: dado que, por norma tributaria, todas las transacciones',
 		't: deben realizarse por el sistema financiero', 
@@ -114,7 +114,7 @@ monogatari.script ({
 		't: recomendamos que soliciten además de la resolución de facturación',
 		't: electrónica, una resolución de facturación Pos,',
 		't: tenga en cuenta este documento cuando veamos el modulo de soportes de contabilidad,',
-		't: por el momento te invito a que consultes sobre este tema aplicable desde el 2019 en las empresas.'
+		't: por el momento te invito a que consultes sobre este tema aplicable desde el 2019 en las empresas.',
 		'end',
       
 	],
