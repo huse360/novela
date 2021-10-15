@@ -2,10 +2,27 @@ monogatari.script ({
 	
 	'Start_Constitucion': [
 		
-		'jump Actividadeconomica',
+		//'jump Actividadeconomica',
+		
+		'jump Eleccion',
       
 	],
 
+	'Eleccion': [
+	{
+		'Choice': {
+			'p1': {
+				'Text': 'Ir a la Parte 1',
+				'Do': 'jump parte1'
+				},
+			'p2': {
+				'Text': 'Ir a la parte 2',
+				'Do': 'jump parte2'
+				},
+			}
+	},
+	],
+	
 	
 	
 	'Actividadeconomica': [
