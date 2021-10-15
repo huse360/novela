@@ -40,7 +40,7 @@ monogatari.script ({
 	
 	
 	'Nombredelaempresa': [
-		'show character t normal',
+		'show character t feliz',
 		't: Querido aprendiz, el siguiente paso será idear el nombre',
 		't: para esa empresa que tanto has anhelado,',
 		't: te recomendamos que antes de definirlo como tal',
