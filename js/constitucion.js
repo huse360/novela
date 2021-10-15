@@ -3,7 +3,7 @@ monogatari.script ({
 	'Start_Constitucion': [ 
 		
 		//'jump Actividadeconomica',
-		'show character t normal',
+		'show character t brava',
 		'jump Eleccion',
       
 	],
