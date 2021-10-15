@@ -108,7 +108,7 @@ monogatari.script ({
 	
 	'Resolucióndefacturación': [
 	
-		't: Querido empresario, los orientaré en el diligenciamiento',
+		't: Querido empresario, te orientaré en el diligenciamiento',
 		't: de la solicitud de resolución de facturación,',
 		't: si los productos que ustedes van ofrecer son de consumo masivo,',
 		't: recomendamos que soliciten además de la resolución de facturación',
