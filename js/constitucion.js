@@ -12,12 +12,12 @@ monogatari.script ({
 	{
 		'Choice': {
 			'p1': {
-				'Text': 'Ir a la Parte 1',
-				'Do': 'jump parte1'
+				'Text': 'Actividad económica',
+				'Do': 'jump Actividadeconomica'
 				},
 			'p2': {
-				'Text': 'Ir a la parte 2',
-				'Do': 'jump parte2'
+				'Text': 'Nombre de la empresa',
+				'Do': 'Nombredelaempresa'
 				},
 			}
 	},
