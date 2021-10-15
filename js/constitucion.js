@@ -11,6 +11,8 @@ monogatari.script ({
 	'Eleccion': [
 	{
 		'Choice': {
+			
+			'Dialog': 't: ¿Aprendiz, seleccione el paso con el que usted considere que se debe iniciar la constitución? ',
 			'p1': {
 				'Text': 'Actividad económica',
 				'Do': 'jump Actividadeconomica'
