@@ -62,7 +62,7 @@ monogatari.script ({
 		't: porque su finalidad es obtener una utilidad',
 		't: se sugiere construir un esquema clasificatorio',
 		't: o mapa mental para dejar claridad en esta clasificación,'
-	        'jump Actadeconstitución',
+	        'jump Actadeconstituciónyregistromercantil',
 
 		
 	],
