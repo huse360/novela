@@ -3,7 +3,7 @@ monogatari.script ({
 	'Start_Constitucion': [ 
 		
 		//'jump Actividadeconomica',
-		'show character t brava',
+		'show character t normal',
 		'jump Eleccion',
       
 	],
@@ -29,6 +29,7 @@ monogatari.script ({
 	
 	'Actividadeconomica': [
 		
+		'show character t brava',
 		't: Cuando se tiene la idea de constituir una empresa,',
 		't: se debe tener claridad cuál va hacer el objeto social',
 		't: tenemos para ti el listado de actividades económicas,',
@@ -39,6 +40,7 @@ monogatari.script ({
 	
 	
 	'Nombredelaempresa': [
+		'show character t normal',
 		't: Querido aprendiz, el siguiente paso será idear el nombre',
 		't: para esa empresa que tanto has anhelado,',
 		't: te recomendamos que antes de definirlo como tal',
