@@ -61,7 +61,7 @@ monogatari.script ({
                 't: porque se va constituir con 2 o más personas y según el objetivo, sería con animo de lucro,',
 		't: porque su finalidad es obtener una utilidad',
 		't: se sugiere construir un esquema clasificatorio',
-		't: o mapa mental para dejar claridad en esta clasificación,'
+		't: o mapa mental para dejar claridad en esta clasificación',
 	        'jump Actadeconstituciónyregistromercantil',
 
 		
