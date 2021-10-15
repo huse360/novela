@@ -93,22 +93,28 @@ monogatari.script ({
 	],	
 	
 
-	'Induccion': [
+	'cuentabancaria': [
 		
-		't: Querido aprendiz, bienvenido',
-		
-		't: El dia de hoy estarás en un nuevo mundo para ti',
-		
-		'jump Finalizacion',		
+		't: Estimado empresario, te daré un formato de apertura de la cuenta bancaria,'
+		't: desde está cuenta deben manejar todos los pagos e ingresos,',
+		't: dado que, por norma tributaria, todas las transacciones',
+		't: deben realizarse por el sistema financiero', 
+		't: se exceptúan las cajas menores que deben manejar las empresas',
+		'jump Resolucióndefacturación',		
 		
       
 	],
 	
 	
-	'Finalizacion': [
+	'Resolucióndefacturación': [
 	
-		't: En el que aprenderás de una manera diferente',		
-		
+		't: Querido empresario, los orientaré en el diligenciamiento',
+		't: de la solicitud de resolución de facturación,',
+		't: si los productos que ustedes van ofrecer son de consumo masivo,',
+		't: recomendamos que soliciten además de la resolución de facturación',
+		't: electrónica, una resolución de facturación Pos,',
+		't: tenga en cuenta este documento cuando veamos el modulo de soportes de contabilidad,',
+		't: por el momento te invito a que consultes sobre este tema aplicable desde el 2019 en las empresas.'
 		'end',
       
 	],
