@@ -62,9 +62,35 @@ monogatari.script ({
 		't: porque su finalidad es obtener una utilidad',
 		't: se sugiere construir un esquema clasificatorio',
 		't: o mapa mental para dejar claridad en esta clasificación,'
+	        'jump Actadeconstitución',
 
 		
 	],
+	
+	
+	'Actadeconstituciónyregistromercantil': [
+		't: Señor empresario (Aprendiz),',
+		't: usted deberá constituir una empresa,',
+		't: dándole forma legal con el acta de constitución,',
+		't: Tereis, les dará un modelo de acta de constitución,',
+		't: para que ustedes lo diligencien y lo presenten',
+		't: ante la cámara de comercio de su ciudad,',
+		't: recuerde que debe constituirla con máximo 6 accionistas,',
+		't: donde cada uno debe aportar dinero o bienes que tengan,', 
+                't: relación con la actividad económica seleccionada,',
+		't: por ejemplo, para la heladería, se necesitaría una nevera industrial de alta capacidad.',
+		't: Con este trámite, el funcionario de la cámara de comercio,',
+		't: les debe entregar certificado de existencia y representación legal',
+		't: y por su puesto el Rut (Registro único tributario)',
+		't: Con esa documentación pueden empezar a operar como empresa',
+		't: solicitando la resolución de facturación y la apertura de la cuenta bancaria',
+		't: en donde harán el depósito del dinero aportado en efectivo',
+		't: por los accionistas de la empresa',
+		't: Tengan en cuenta que deben elegir a un representante legal.',
+		'jump cuentabancaria',
+		
+		
+	],	
 	
 
 	'Induccion': [
