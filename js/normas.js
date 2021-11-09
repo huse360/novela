@@ -2,7 +2,8 @@ monogatari.script ({
 
   'Start_Normas': [
 
-    'Aprendiz para  conocer la normativa comercial, contable y financiera vigente, su objetivo e identificar organismo emisor uste',
+    'Estimado Aprendiz'
+    'Para  conocer la normativa comercial, contable y financiera vigente, su objetivo e identificar el organismo emisor usted debe responder los siguientes interrogantes para evidencia  de su conocimiento',
     'end',
 
   ],
