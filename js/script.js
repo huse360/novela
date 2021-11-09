@@ -71,6 +71,7 @@ monogatari.assets ('images', {
 
 // Define the backgrounds for each scene.
 monogatari.assets ('scenes', {
+	'salon': 'aula_bienvenida.jpg',
 
 });
 
