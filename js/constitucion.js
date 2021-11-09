@@ -2,6 +2,7 @@ monogatari.script ({
 	
 	'Start_Constitucion': [ 
 		
+		'show background constitucion at left with fadeIn',
 		//'jump Actividadeconomica',
 		'show character t normal',
 		'jump Eleccion',
