@@ -1,7 +1,7 @@
 monogatari.script ({
 
 	'Start_Bienvenida': [
-  
+                'show background salon at left with fadeIn',
 		'show character t feliz at left with fadeIn',	
 		'play voice tereis_bienvenida',
 		't: Querido aprendiz, bienvenido a este mundo de aprendizaje interactivo,',
