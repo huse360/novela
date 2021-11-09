@@ -74,6 +74,7 @@ monogatari.assets ('scenes', {
 	'salon': 'aula_bienvenida.jpg',
 	
 	'constitucion': 'constitucion.jpg',
+	'actividadeconomica' : 'actividadeconomica.jpg',
 
 });
 
