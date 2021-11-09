@@ -30,6 +30,7 @@ monogatari.script ({
 	
 	'Actividadeconomica': [
 		
+		'show background actividadeconomica at left with fadeIn',
 		'show character t brava',
 		't: Cuando se tiene la idea de constituir una empresa,',
 		't: se debe tener claridad cuál va hacer el objeto social',
