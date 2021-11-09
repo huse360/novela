@@ -2,7 +2,7 @@ monogatari.script ({
 
   'Start_Normas': [
 
-    'Hola mundo',
+    'Aprendiz para  conocer la normativa comercial, contable y financiera vigente, su objetivo e identificar organismo emisor uste',
     'end',
 
   ],
