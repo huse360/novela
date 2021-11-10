@@ -7,7 +7,7 @@ monogatari.script ({
     'sobre todo en cuestiones de negocios y finanzas,',
     'La información confiable y comparable en el ámbito financiero,', 
     'es necesaria para que en las empresas se tomen las mejores decisiones,',
-    'para  conocer la normativa comercial, contable y financiera vigente,',
+    'Para  conocer la normativa comercial, contable y financiera vigente,',
     'es necesario que usted revise el contenido tematico,',
     'Para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
     'end',
