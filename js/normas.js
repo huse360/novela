@@ -1,16 +1,14 @@
 monogatari.script ({
 
   'Start_Normas': [
+    
+    'show background normas at left with fadeIn',
+			//'jump Definirelmarconormativocontableyfinancieroaplicable',  
+			'show character t normal',
+			'jump Eleccion',
 
-    'Estimado Aprendiz,',
-    'La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
-    'sobre todo en cuestiones de negocios y finanzas,',
-    'La información confiable y comparable en el ámbito financiero,', 
-    'es necesaria para que en las empresas se tomen las mejores decisiones,',
-    'Para  conocer la normativa comercial, contable y financiera vigente,',
-    'es necesario que usted revise el contenido tematico,',
-    'Para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
     ],
+  
   'Elección':[
     {
       Choice':{
@@ -21,10 +19,17 @@ monogatari.script ({
     },
     'p2:{
     'Text': 'Conocer la actividad comercial y necesidades de la empresa',
+    'Do':'Conocerlaactividadcomercialynecesidadesdelaempresa'
     },
     'p3:{
     'Text':'Identificar si de acuerdo a la normativa vigente en Colombia, está obligada a llevar contabilidad según NIIF',
+    'Do':'IdentificarsideacuerdoalanormativavigenteenColombia,estáobligadaallevarcontabilidadsegúnNIIF             
     },
+  
+}
+},
+],
+
    
 
     'end',
