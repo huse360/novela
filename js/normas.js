@@ -10,6 +10,14 @@ monogatari.script ({
     'Para  conocer la normativa comercial, contable y financiera vigente,',
     'es necesario que usted revise el contenido tematico,',
     'Para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
+    
+    'Aprendiz, una vez constituida su empresa selecciones el paso a seguir,',
+    
+    'Definir el marco normativo contable y financiero aplicable,',
+    'Identificar si de acuerdo a la normativa vigente en Colombia, está obligada a llevar contabilidad según NIIF,',
+    'Conocer la actividad comercial y necesidades de la empresa,',
+
+
     'end',
 
   ],
