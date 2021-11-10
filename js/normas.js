@@ -12,18 +12,18 @@ monogatari.script ({
   'Elección':[
     {
       Choice':{
-      'Dialog': 't:¿Aprendiz, una vez constituida su empresa selecciones el paso a seguir?',
+      'Dialog': 't: ¿Aprendiz, una vez constituida su empresa selecciones el paso a seguir?',
       'p1':{
-      'Text':'Definir el marco normativo contable y financiero aplicable',
-      'Do':'jump Definirelmarconormativocontableyfinancieroaplicable'  
+      'Text':'Identificar el marco normativo contable',
+      'Do':'jump Definirelmarconormativocontable'  
     },
     'p2:{
-    'Text': 'Conocer la actividad comercial y necesidades de la empresa',
-    'Do':'Conocerlaactividadcomercialynecesidadesdelaempresa'
+    'Text': 'Conocer la actividad comercial de la empresa',
+    'Do':'Conocerlaactividadcomercialdelaempresa'
     },
     'p3:{
-    'Text':'Identificar si de acuerdo a la normativa vigente en Colombia, está obligada a llevar contabilidad según NIIF',
-    'Do':'IdentificarsideacuerdoalanormativavigenteenColombia,estáobligadaallevarcontabilidadsegúnNIIF'             
+    'Text':'Verificar si está obligada a llevar contabilidad según NIIF',
+    'Do':'VerificarsiestáobligadaallevarcontabilidadsegúnNIIF'             
     },
   
 }
