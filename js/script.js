@@ -9,7 +9,17 @@ monogatari.action ('message').messages ({
 			<p><a href='https://developers.monogatari.io/documentation/'>Documentation</a> - Everything you need to know.</p>
 			<p><a href='https://monogatari.io/demo/'>Demo</a> - A simple Demo.</p>
 		`
-	}
+	},
+
+	'ConsultarNombreEmpresa': {
+		title: 'Consulta de nombre de la empresa ',
+		
+		body: `
+			<p><a href='https://www.rues.org.co/'>Rues</a> - Enlace de consulta de nombres.</p>
+		`
+	},
+
+
 });
 
 // Define the notifications used in the game
