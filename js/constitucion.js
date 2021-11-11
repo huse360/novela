@@ -1,6 +1,8 @@
 monogatari.script ({
 	
 	'Start_Constitucion': [ 
+
+		
 		
 		'show background constitucion at left with fadeIn',
 		//'jump Actividadeconomica',
@@ -46,10 +48,46 @@ monogatari.script ({
 		't: Querido aprendiz, el siguiente paso será idear el nombre',
 		't: para esa empresa que tanto has anhelado,',
 		't: te recomendamos que antes de definirlo como tal',
-		't: consultes en la siguiente página,',
-		't: https://www.rues.org.co/, aquí encontrarás',
+
+		
+		't: consultes en la siguiente página donde encontrarás,',
+		
 		't: si ese nombre que has tenido en cuenta para formalizar tu empresa,',
 		't: ya existe, en ese caso, piensa en otro, no puedes crear otra empresa con el mismo nombre',
+		
+		'show message ConsultarNombreEmpresa',
+
+
+		'show notification Welcome',
+		{
+			'Input': {
+				'Text': 'Inserte aquí el nombre de la empresa:',
+				'Validation': function (input) {
+					return input.trim ().length > 0;
+				},
+				'Save': function (input) {
+					this.storage ({
+						player: {
+							nombreEmpresa: input
+						}
+					});
+					return true;
+				},
+				'Revert': function () {
+					this.storage ({
+						player: {
+							nombreEmpresa: ''
+						}
+					});
+				},
+				'Warning': 'Debes ingresar un nombre!'
+			},
+
+		},
+
+		't: El nombre escogido es: {{player.nombreEmpresa}}, bien hecho!',
+		
+		
 		'jump logodelaempresa',
 		
 		
