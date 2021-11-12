@@ -7,8 +7,94 @@ monogatari.script ({
 		'show background constitucion at left with fadeIn',
 		//'jump Actividadeconomica',
 		'show character t normal',
-		'jump Eleccion',
+		//'jump Eleccion',
+		'jump clas_objetivo',
       
+	],
+
+
+	'clas_objetivo': [
+		{
+			'Choice': {
+				
+				'Dialog':  't: ¿Según el objetivo cómo clasificarías tu empresa?',
+				'p1': {
+					'Text': 'Comercial',
+					'Do': 'jump clas_actividad',
+					"onChosen": function(){monogatari.storage().empresaObjetivo = "Comercial";},
+				},
+				'p2': {
+					'Text': 'No comercial',
+					'Do': 'jump clas_actividad',
+					"onChosen": function(){monogatari.storage().empresaObjetivo = "No Comercial";},
+				},
+			}
+		},
+	],
+
+	'clas_actividad': [
+
+		't: Has escogido {{empresaObjetivo}}',
+		{
+			'Choice': {
+				
+				'Dialog':  't: ¿Según la actividad cómo clasificarías tu empresa?',
+				'p1': {
+					'Text': 'Comercial',
+					'Do': 'jump clas_propietario',
+					"onChosen": function(){monogatari.storage().empresaClaseActividad = "Comercial";},
+				},
+				'p2': {
+					'Text': 'De servicios',
+					'Do': 'jump clas_propietario',
+					"onChosen": function(){monogatari.storage().empresaClaseActividad = "De servicios";},
+				},
+				'p3': {
+					'Text': 'Industrial',
+					'Do': 'jump clas_propietario',
+					"onChosen": function(){monogatari.storage().empresaClaseActividad = "Industrial";},
+				},
+			}
+		},
+	],
+
+	'clas_propietario': [
+		't: Has escogido {{empresaClaseActividad}}',
+		{
+			'Choice': {
+				
+				'Dialog':  't: ¿Según el número de propietarios cómo clasificarías tu empresa?',
+				'p1': {
+					'Text': 'Individual',
+					'Do': 'jump Actividadeconomica',
+				},
+				'p2': {
+					'Text': 'Sociedad',
+					'Do': 'jump Nombredelaempresa',
+				},
+			}
+		},
+	],
+
+	'clas_capital': [
+		{
+			'Choice': {
+				
+				'Dialog':  't: ¿Según la procedencia de capital cómo clasificarías tu empresa?',
+				'p1': {
+					'Text': 'Pública',
+					'Do': 'jump Eleccion',
+				},
+				'p2': {
+					'Text': 'Privada',
+					'Do': 'jump Eleccion',
+				},
+				'p3': {
+					'Text': 'Mixta',
+					'Do': 'jump Eleccion',
+				},
+			}
+		},
 	],
 
 	'Eleccion': [
@@ -18,11 +104,11 @@ monogatari.script ({
 			'Dialog':  't: ¿Aprendiz, seleccione el paso con el que usted considere que se debe iniciar la constitución?',
 			'p1': {
 				'Text': 'Actividad económica',
-				'Do': 'jump Actividadeconomica'
+				'Do': 'jump Actividadeconomica',
 				},
 			'p2': {
 				'Text': 'Nombre de la empresa',
-				'Do': 'jump Nombredelaempresa'
+				'Do': 'jump Nombredelaempresa',
 				},
 			}
 	},
@@ -119,11 +205,13 @@ monogatari.script ({
 		't: porque compra productos terminados y los vende de la misma manera,',
 		't: según la procedencia de capital, sería privado, porque todo el capital',
 		't: proviene de fuentes privadas, según el número de propietarios, sería sociedad', 
-                't: porque se va constituir con 2 o más personas y según el objetivo, sería con animo de lucro,',
+        't: porque se va constituir con 2 o más personas y según el objetivo, sería con animo de lucro,',
 		't: porque su finalidad es obtener una utilidad',
 		't: se sugiere construir un esquema clasificatorio',
 		't: o mapa mental para dejar claridad en esta clasificación',
-	        'jump Actadeconstituciónyregistromercantil',
+	    
+		
+		'jump Actadeconstituciónyregistromercantil',
 
 		
 	],
