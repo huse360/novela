@@ -2,35 +2,15 @@ monogatari.script ({
 
   'Start_Normas': [
     
-    'show background normas at left with fadeIn',
-			//'jump Conocerlaactividadcomercialynecesidadesdelaempresa',  
-			'show character t normal',
-			'jump Eleccion',
+   'Estimado Aprendiz,',
+    'La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
+    'sobre todo en cuestiones de negocios y finanzas.',
+    'La información confiable y comparable en el ámbito financiero,', 
+    'es necesaria para que en las empresas se tomen las mejores decisiones.',
+    'Para  conocer la normativa comercial, contable y financiera vigente,',
+    'es necesario que usted revise el contenido tematico.',
+    'Para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
 
-    ],
-  
-  'Elección':[
-    {
-      Choice':{
-      'Dialog': 't: ¿Aprendiz, una vez constituida su empresa selecciones el paso a seguir?',
-      'p1':{
-      'Text':'Identificar el marco normativo contable',
-      'Do':'jump Definirelmarconormativocontable'  
-    },
-    'p2:{
-    'Text': 'Conocer la actividad comercial de la empresa',
-    'Do':'Conocerlaactividadcomercialdelaempresa'
-    },
-    'p3:{
-    'Text':'Verificar si está obligada a llevar contabilidad según NIIF',
-    'Do':'VerificarsiestáobligadaallevarcontabilidadsegúnNIIF'             
-    },
-  
-}
-},
-],
-
-   
 
     'end',
 
