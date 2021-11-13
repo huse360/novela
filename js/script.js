@@ -15,9 +15,19 @@ monogatari.action ('message').messages ({
 		title: 'Consulta de nombre de la empresa ',
 		
 		body: `
-			<p><a href='https://www.rues.org.co/'>Rues</a> - Enlace de consulta de nombres.</p>
+			<p><a href='https://www.rues.org.co/'  target="_blank" rel="noopener noreferrer">Rues</a> - Enlace de consulta de nombres.</p>
 		`
 	},
+
+
+	'ConsultarPaginaLogo': {
+		title: 'Crea el Logo',
+		subtitle: 'Juega con los colores, pero ante todo maneja sobriedad. ¡Adelante!',
+		body: `
+			<p><a href='https://www.brandcrowd.com/maker/logos?text=ice+cream+&SearchText=&LogoStyle=0&LogoLayoutOrientation=&Colors=&FontStyles='  target="_blank" rel="noopener noreferrer">Brand Crown</a> - Esto te puede servir de gran ayuda para poder construir el logotipo.</p>
+		`
+	},
+
 
 
 });
@@ -170,3 +180,5 @@ monogatari.script ({
 
 });
 */
+
+
