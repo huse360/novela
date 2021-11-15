@@ -3,8 +3,8 @@ monogatari.script ({
   'Start_Normas': [
     
     
-    
     'Estimado Aprendiz,',
+    
     'La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
     'sobre todo en cuestiones de negocios y finanzas.',
     'La información confiable y comparable en el ámbito financiero,', 
@@ -15,7 +15,6 @@ monogatari.script ({
 
     'end',
     
-  
   ],
   
 });
