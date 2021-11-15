@@ -13,6 +13,6 @@ monogatari.script ({
 
     'end',
   
-  ],
+  ]
   
 });
