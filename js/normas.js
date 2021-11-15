@@ -21,6 +21,6 @@ monogatari.script ({
     'end',
 
   ],
-]
+],
   
 });
