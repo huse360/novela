@@ -10,8 +10,11 @@ monogatari.script ({
         name:'Tereis',
         color: '#CC0066'
       },
+    
     });
     
+    
+    [
     'jump Inicio', 
     ],
 'Inicio': [
@@ -24,6 +27,7 @@ monogatari.script ({
     't:'Para  conocer la normativa comercial, contable y financiera vigente,',
     't:'es necesario que usted revise el contenido tematico.',
     't:'Para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
+  ]
 
 
     'end',
