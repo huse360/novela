@@ -1,7 +1,8 @@
 monogatari.script ({
 
   'Start_Normas': [
-    'Hola mundo',
+    
+    'Hola mundo!',
   
     'end',
 
