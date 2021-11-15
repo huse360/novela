@@ -2,36 +2,25 @@ monogatari.script ({
 
   'Start_Normas': [
     
-    // Define the characters
-    monogatari.characters({
-      
-      't': {
-        
-        name:'Tereis',
-        color: '#CC0066'
-      },
-    
-    });
-    
-    
-    [
-    'jump Inicio', 
-    ],
-'Inicio': [
-    
-    't: 'Estimado Aprendiz,',
-    't: 'La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
-    't: 'sobre todo en cuestiones de negocios y finanzas.',
-    't: 'La información confiable y comparable en el ámbito financiero,', 
-    't: 'es necesaria para que en las empresas se tomen las mejores decisiones.',
-    't: 'Para  conocer la normativa comercial, contable y financiera vigente,',
-    't: 'es necesario que usted revise el contenido tematico.',
-    't: 'Para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
-  ]
-
-
+   'parte1': [
+ 'q: ...es gran servicio quitar tan mala simiente de gigantes.',
+ 's: ¿Qué gigantes?',
+ 'q: Aquellos que allí ves, de los brazos largos.',
+ 's: Mire vuestra merced que aquellos que allí se parecen no son gigantes,',
+ 's: sino molinos de viento, y lo que en ellos parecen brazos son las aspas',
+ 'q: Bien parece que no estás cursado en esto de las aventuras...',
+ 'end',
+],
+'parte2': [
+ 's: ¡Válame Dios!',
+ 's: ¿No le dije yo a vuestra merced que mirase bien?', 
+  'q: Calla, amigo Sancho,',
+ 'q: que las cosas de la guerra más que otras',
+ 'q: están sujetas a continua mudanza;',
+ 
     'end',
 
   ],
+]
   
 });
