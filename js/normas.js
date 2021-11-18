@@ -2,6 +2,21 @@ monogatari.script ({
 
   'Start_Normas': [
     
+    {
+       'Choice': {
+           'p1': {
+             'Text': 'Normativa',
+             'Do': 'jump Normativa'
+           },
+         
+           'p2': {
+             'Text': 'Politicas',
+             'Do': 'jump Politicas'
+           },
+
+       } 
+    },
+    
     
     'show character t feliz at left with fadeIn',
  't: Soy Teresa y ahora estoy feliz.',
@@ -33,5 +48,13 @@ monogatari.script ({
     'end',
     
   ],
+  
+  'Normativa': [
+       'escogiste la normativa',
+  ],
+  
+   'Politicas': [
+       'escogiste la politicas',
+  ], 
   
 });
