@@ -4,6 +4,9 @@ monogatari.script ({
     
     {
        'Choice': {
+         
+           'Dialog': ‘t: normativa, ¿NIIF? ¿DUR 2420', 
+         
            'p1': {
              'Text': 'Normativa',
              'Do': 'jump Normativa'
@@ -56,5 +59,9 @@ monogatari.script ({
    'Politicas': [
        'escogiste la politicas',
   ], 
+  
+  
+  
+  
   
 });
