@@ -2,6 +2,23 @@ monogatari.script ({
 
   'Start_Normas': [
     
+    
+    'show character t feliz at left with fadeIn',
+ 't: Soy Teresa y ahora estoy feliz.',
+ 'show character t brava at center',
+ 't: ¡Pero también me puedo poner brava!',
+
+ 'show character t triste at right',
+ 't: o triste...',
+ 'show character t cansada at left',
+ 't: ...pero ya me cansé...',
+ 'hide character t cansada with fadeOut',
+ 't: Y me voy.',
+ 't: Chao.', 
+    
+    
+    
+    
     'show character t brava at center with fadeIn', 
     't: Estimado Aprendiz,',
     
