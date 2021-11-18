@@ -5,7 +5,7 @@ monogatari.script ({
     {
        'Choice': {
          
-           'Dialog': ‘t: normativa, ¿NIIF? ¿DUR 2420', 
+           'Dialog': 't: normativa, ¿NIIF? ¿DUR 2420', 
          
            'p1': {
              'Text': 'Normativa',
