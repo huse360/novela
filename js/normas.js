@@ -2,7 +2,7 @@ monogatari.script ({
 
   'Start_Normas': [
     
-    'show character t normal at center with fadeIn', 
+    'show character t brava at center with fadeIn', 
     't: Estimado Aprendiz,',
     
    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
