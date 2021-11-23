@@ -35,6 +35,9 @@ monogatari.script ({
        } 
     },  
     
+            'end',
+
+    
   ],
   
    'Normativavigente': [
