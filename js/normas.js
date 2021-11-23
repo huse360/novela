@@ -35,8 +35,7 @@ monogatari.script ({
        } 
     },  
     
-             'end,
-    
+            
     ],
         
 
