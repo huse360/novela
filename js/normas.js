@@ -13,6 +13,28 @@ monogatari.script ({
     't: Para  conocer la normativa comercial, contable y financiera vigente,',
     't: es necesario que usted revise el contenido tematico,',
     't: para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
+    
+    
+    
+    
+    {
+       'Choice': {
+         
+           'Dialog': 't: Aprendiz, constituida su empresa seleccione el paso a seguir',
+         
+           'p1': {
+             'Text': 'Conocer Normativa vigente',
+             'Do': 'jump ConocerNormativavigente'
+           },
+         
+           'p2': {
+             'Text': 'Crear Politicas Contables',
+             'Do': 'jump CrearPoliticasContables'
+           },
+
+       } 
+    },
+
 
     
     
