@@ -2,7 +2,7 @@ monogatari.script ({
 
   'Start_Normas': [
     
-     'show background salon at left with fadeIn', 
+     'show background global at left with fadeIn', 
    
      'show character t feliz at left with fadeIn', 
    
