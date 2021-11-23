@@ -1,6 +1,7 @@
 monogatari.script ({
 
   'Start_Normas': [
+   
     
      'show character t feliz at left with fadeIn', 
    
@@ -11,7 +12,7 @@ monogatari.script ({
     't: La información confiable y comparable en el ámbito financiero,', 
     't: es necesaria para que en las empresas se tomen las mejores decisiones.',
     't: Para  conocer la normativa comercial, contable y financiera vigente,',
-    't: es necesario que usted revise el contenido tematico,',
+    't: es necesario que usted revise el contenido temático,',
     't: para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
     
     
@@ -34,11 +35,11 @@ monogatari.script ({
 
        } 
     },  
-           
-   
-  ],
-        
+    
+            'end',
 
+    
+  ],
   
    'Normativavigente': [
     
@@ -56,10 +57,9 @@ monogatari.script ({
        't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
        't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
        'end',
-             ],
+             ], 
   
-   
   
-
-      
 });
+
+
