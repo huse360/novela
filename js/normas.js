@@ -36,19 +36,11 @@ monogatari.script ({
     },
 
 
-     
-
-    
-
-       
-
     'end',
     
   ],
   
    'Normativa vigente': [
-    
-    'show character t feliz at left with fadeIn',
     
        't: Aprendiz',
        't: Una vez constituida su empresa el siguiente paso es definir el marco normativo contable y financiero aplicable,',
@@ -57,8 +49,6 @@ monogatari.script ({
              ],
   
    'Politicas contables': [
-     
-     'show character t brava at center with fadeIn',
      
        't: Aprendiz',
        't: Ya tiene identificada la estructura contable de su  empresa,',
