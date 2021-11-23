@@ -57,9 +57,6 @@ monogatari.script ({
        't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
        'end',
              ], 
-
-  
-       'end',
   
   
 });
