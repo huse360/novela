@@ -35,7 +35,9 @@ monogatari.script ({
        } 
     },  
     
-          
+     'end',
+    
+       ],       
 
   
   
@@ -57,8 +59,8 @@ monogatari.script ({
        'end',
              ],
   
-    'end',
+   
   
-  ],
+ 
       
 });
