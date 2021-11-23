@@ -37,7 +37,7 @@ monogatari.script ({
     
             'end',
 
-    
+  
   
    'Normativavigente': [
     
@@ -57,7 +57,6 @@ monogatari.script ({
        'end',
              ],
   
-  
-        ],
-  
+  ],
+      
 });
