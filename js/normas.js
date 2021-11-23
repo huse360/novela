@@ -33,29 +33,26 @@ monogatari.script ({
            },
 
        } 
-    },
-
-
-    
+    },  
     
   ],
   
-   'Normativa vigente': [
+   'Normativavigente': [
     
        't: Aprendiz',
        't: Una vez constituida su empresa el siguiente paso es definir el marco normativo contable y financiero aplicable,',
        't: por lo anterior debe identificar si de acuerdo a la normativa vigente en Colombia,',
        't: su empresa está obligada a llevar contabilidad según NIIF',
-      
+       'end',
              ],
   
-   'Politicas contables': [
+   'Politicascontables': [
      
        't: Aprendiz',
        't: Ya tiene identificada la estructura contable de su  empresa,',
        't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
        't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
-      
+       'end',
              ], 
 
   
