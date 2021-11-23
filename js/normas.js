@@ -36,7 +36,17 @@ monogatari.script ({
     },
 
 
-      'Normativa vigente': [
+     
+
+    
+
+       
+
+    'end',
+    
+  ],
+  
+   'Normativa vigente': [
     
     'show character t feliz at left with fadeIn',
     
@@ -56,15 +66,6 @@ monogatari.script ({
        't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
              ], 
 
-    
-
-       
-
-    'end',
-    
-  ],
-  
-  
   
   
   
