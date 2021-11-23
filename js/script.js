@@ -95,6 +95,7 @@ monogatari.assets ('scenes', {
 	
 	'constitucion': 'constitucion.jpg',
 	'actividadeconomica' : 'actividadeconomica.jpg',
+	'global': 'global.jpg',
 
 });
 
