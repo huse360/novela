@@ -43,6 +43,30 @@ monogatari.script ({
   ],
   
    'Normativavigente': [
+     
+       {
+       'Choice': {
+         
+           'Dialog': 't: Aprendiz, constituida su empresa seleccione el paso a seguir',
+         
+           'p1': {
+             'Text': 'Identificar marco normativo contable',
+             'Do': 'jump Identificarmarconormatico'
+           },
+         
+           'p2': {
+             'Text': 'Determinar normas aplicables ',
+             'Do': 'jump Determinarnormasaplicables'
+           },
+         
+           'p3': {
+             'Text': 'Conocer actividad comercial',
+             'Do': 'jump Conoceractividadcomercial'
+           },
+
+       } 
+    },  
+     
     
        't: Aprendiz',
        't: Una vez constituida su empresa el siguiente paso es definir el marco normativo contable y financiero aplicable,',
@@ -59,7 +83,31 @@ monogatari.script ({
        't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
        'end',
              ], 
+  'Identificarmarconormatico': [
+     
+       't: Aprendiz',
+       't: Ya tiene identificada la estructura contable de su  empresa,',
+       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
+       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
+       'end',
+             ], 
   
+  'Conoceractividadcomercial': [
+     
+       't: Aprendiz',
+       't: Ya tiene identificada la estructura contable de su  empresa,',
+       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
+       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
+       'end',
+             ], 
+  'Determinarnormasaplicables': [
+     
+       't: Aprendiz',
+       't: Ya tiene identificada la estructura contable de su  empresa,',
+       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
+       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
+       'end',
+             ], 
   
 });
 
