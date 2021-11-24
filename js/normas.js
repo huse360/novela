@@ -17,12 +17,8 @@ monogatari.script ({
     
     't: La información confiable y comparable en el ámbito financiero,', 
     't: es necesaria para que en las empresas se tomen las mejores decisiones.',
-    't: Para  conocer la normativa comercial, contable y financiera vigente,',
-    't: es necesario que usted revise el contenido temático,',
-    't: para dar respuesta a los siguientes interrogantes y evidenciar el conocimiento adquirido,',
-    
-    
-    
+    't: En este modulo vamos a evaluar sus conocimientos adquiridos,',
+    't: en normativa comercial, contable y financiera vigente.',
     
     {
        'Choice': {
@@ -55,18 +51,18 @@ monogatari.script ({
            'Dialog': 't: Aprendiz, constituida su empresa seleccione el paso a seguir',
          
            'p1': {
-             'Text': 'Identificar marco normativo contable',
-             'Do': 'jump Identificarmarconormatico'
+             'Text': ' Definir marco conceptual aplicable',
+             'Do': 'jump Definirmarcoconceptualaplicable'
            },
          
            'p2': {
-             'Text': 'Determinar normas aplicables ',
-             'Do': 'jump Determinarnormasaplicables'
+             'Text': 'Identificar la estructura contable ',
+             'Do': 'jump Identificarlaestructuracontable'
            },
          
            'p3': {
-             'Text': 'Conocer actividad comercial',
-             'Do': 'jump Conoceractividadcomercial'
+             'Text': 'Conocer normativa vigente',
+             'Do': 'jump Conocernormativavigente'
            },
 
        } 
@@ -80,7 +76,7 @@ monogatari.script ({
        'end',
              ],
   
-   'Politicascontables': [
+   'Definirmarcoconceptualaplicable': [
      
        't: Aprendiz',
        't: Ya tiene identificada la estructura contable de su  empresa,',
@@ -88,7 +84,7 @@ monogatari.script ({
        't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
        'end',
              ], 
-  'Identificarmarconormatico': [
+  'Identificarlaestructuracontable': [
      
        't: Aprendiz',
        't: Ya tiene identificada la estructura contable de su  empresa,',
@@ -97,7 +93,7 @@ monogatari.script ({
        'end',
              ], 
   
-  'Conoceractividadcomercial': [
+  'Conocernormativavigente': [
      
        't: Aprendiz',
        't: Ya tiene identificada la estructura contable de su  empresa,',
