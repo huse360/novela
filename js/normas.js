@@ -11,7 +11,7 @@ monogatari.script ({
     't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
     't: sobre todo en cuestiones de negocios y finanzas.',
     
-    'show background global at left with fadeIn', 
+    'show background decisiones at left with fadeIn', 
    
     'show character t feliz at center with fadeIn', 
     
