@@ -10,6 +10,11 @@ monogatari.script ({
     
     't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
     't: sobre todo en cuestiones de negocios y finanzas.',
+    
+    'show background global at left with fadeIn', 
+   
+    'show character t feliz at center with fadeIn', 
+    
     't: La información confiable y comparable en el ámbito financiero,', 
     't: es necesaria para que en las empresas se tomen las mejores decisiones.',
     't: Para  conocer la normativa comercial, contable y financiera vigente,',
