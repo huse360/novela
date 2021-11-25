@@ -58,7 +58,7 @@ monogatari.script ({
          
            'p2': {
              'Text': 'Identificar la estructura contable ',
-             'Do': 'jump Identificarlaestructuracontable',
+             'Do': 'jump Identificarlaestructuracontable'
            },
          
            'p3': {
@@ -72,7 +72,7 @@ monogatari.script ({
     
        't: Querido Aprendiz',
        't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
-       't: financiera vigente en Colombia especificamente, todo lo referente a Normas Internacionales de Información Financiera-NIIF', 
+       't: financiera vigente en Colombia especificamente, todo lo referente a Normas Internacionales de Información Financiera NIIF', 
        't: su objetivo e identificar el organismo emisor',
      
      
