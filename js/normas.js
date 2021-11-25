@@ -71,9 +71,10 @@ monogatari.script ({
      
     
        't: Querido Aprendiz',
-       't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
-       't: financiera vigente en Colombia especificamente, todo lo referente a Normas Internacionales de Información Financiera NIIF', 
-       't: su objetivo e identificar el organismo emisor',
+       't: Las Normas Internacionales de información financiera constituyen el conjunto de normas contables,',
+       't: con mayor aceptación a nivel mundial Es regular la preparación de información transparente y objetiva.',
+       't: Dichas Normas pretenden generar un lenguaje universal comprensible para las empresas nacionales e internacionales',
+
      
      
     
@@ -86,6 +87,7 @@ monogatari.script ({
        
        'end',
              ], 
+  
   'Identificarlaestructuracontable': [
      
        't: Querido Aprendiz',
@@ -98,23 +100,15 @@ monogatari.script ({
        'end',
              ], 
   
-  
   'Conocernormativavigente': [
      
-       't: Aprendiz',
-       't: Ya tiene identificada la estructura contable de su  empresa,',
-       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
-       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
+       't: Querido Aprendiz',
+       't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
+       't: financiera vigente en Colombia especificamente, todo lo referente a Normas Internacionales de Información Financiera NIIF', 
+       't: su objetivo e identificar el organismo emisor', 
        'end',
              ], 
-  'Determinarnormasaplicables': [
-     
-       't: Aprendiz',
-       't: Ya tiene identificada la estructura contable de su  empresa,',
-       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
-       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
-       'end',
-             ], 
+ 
   
 });
 
