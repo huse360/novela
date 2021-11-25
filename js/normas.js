@@ -110,6 +110,17 @@ monogatari.script ({
   
   'end',
  ],
+  
+  
+     'Politicascontables': [
+     
+       't: Aprendiz',
+       't: Ya tiene identificada la estructura contable de su  empresa,',
+       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
+       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES',
+       'end',
+             ], 
+
  
   
 });
