@@ -76,7 +76,6 @@ monogatari.script ({
        't: Dichas Normas pretenden generar un lenguaje universal comprensible para las empresas nacionales e internacionales',
 
      
-     
     
    'Definirmarcoconceptualaplicable': [
      
@@ -108,6 +107,9 @@ monogatari.script ({
        't: su objetivo e identificar el organismo emisor', 
        'end',
              ], 
+  
+  'end',
+ ],
  
   
 });
