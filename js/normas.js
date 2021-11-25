@@ -75,7 +75,8 @@ monogatari.script ({
        't: con mayor aceptación a nivel mundial Es regular la preparación de información transparente y objetiva.',
        't: Dichas Normas pretenden generar un lenguaje universal comprensible para las empresas nacionales e internacionales',
 
-     
+      'end',
+        ],
     
    'Definirmarcoconceptualaplicable': [
      
@@ -108,8 +109,7 @@ monogatari.script ({
        'end',
              ], 
   
-  'end',
- ],
+ 
   
   
      'Politicascontables': [
