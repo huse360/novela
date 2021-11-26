@@ -4,7 +4,7 @@ monogatari.script ({
 	    
 	        'show background global at left with fadeIn', 
 	   
-	        'show character t feliz at left with fadeIn', 
+	        'show character t normal at left with fadeIn', 
 	   
 	    't: Estimado Aprendiz,',
 	    
@@ -52,6 +52,8 @@ monogatari.script ({
 	    
 	   'Definirmarcoconceptualaplicable': [
 		   
+		   'show background global at left with fadeIn', 
+	   
 	           'show character t brava at center with fadeIn',
 	     
 	       't: Querido Aprendiz',
@@ -81,6 +83,8 @@ monogatari.script ({
 	  
 	  'Conocernormativavigente': [
 		  
+		  'show background global at left with fadeIn', 
+	   
 	          'show character t feliz at center with fadeIn',
 	     
 	      't: Querido Aprendiz',
@@ -100,6 +104,8 @@ monogatari.script ({
 	
 	  'Politicascontables':[
 		  
+		   'show background global at left with fadeIn', 
+	   
 		   'show character t brava at center with fadeIn',
 		
 	       't: Estimado aprendiz,',
