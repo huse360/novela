@@ -9,11 +9,9 @@ monogatari.script ({
 	    't: Estimado Aprendiz,',
 	    
 	    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
-	    't: sobre todo en cuestiones de negocios y finanzas.',
-	    
-	    'show background decisiones at left with fadeIn', 
+	    't: sobre todo en cuestiones de negocios y finanzas.', 
 	   
-	    'show character t feliz at center with fadeIn', 
+	    'show character t triste at right with fadeIn', 
 	    
 	    't: La información confiable y comparable en el ámbito financiero,', 
             't: es necesaria para que en las empresas se tomen las mejores decisiones.',
@@ -24,29 +22,9 @@ monogatari.script ({
 	    {
 	       'Choice': {
 	         
-	           'Dialog': 't: Aprendiz, constituida su empresa seleccione el paso a seguir',
+	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
 	         
-	           'p1': {
-	             'Text': 'Normativa vigente',
-	             'Do': 'jump Normativavigente'
-	           },
-	         
-	           'p2': {
-	             'Text': 'Politicas contables',
-	             'Do': 'jump Politicascontables'
-	           },
-	
-	       } 
-	    },  
-	    
-	            'end',
-	  ],
-	  
-	   'Normativavigente': [
-		   
-		    'show background global at left with fadeIn',
-	     
-	       {
+	         {
 	       'Choice': {
 	         
 	           'Dialog': 't: Aprendiz, constituida su empresa seleccione el paso a seguir',
@@ -65,18 +43,20 @@ monogatari.script ({
 	             'Text': 'Conocer normativa vigente',
 	             'Do': 'jump Conocernormativavigente'
 	           },
+		    
+		   'p3': {
+	             'Text': 'Crear politicas contables',
+	             'Do': 'jump Crearpoliticascontables'
+	           },
 	
 	       } 
-	    },  
-	     
+	    },    
 	    
-	      't: Querido Aprendiz',
-              't: Las Normas Internacionales de información financiera constituyen el conjunto de normas contables,',
-              't: con mayor aceptación a nivel mundial Es regular la preparación de información transparente y objetiva.',
-              't: Dichas Normas pretenden generar un lenguaje universal comprensible para las empresas nacionales e internacionales',
-
-              'end',
-                  ],
+	            'end',
+	  ],
+	 
+	      
+	    
 
 	  
 	   'Definirmarcoconceptualaplicable': [
@@ -94,6 +74,8 @@ monogatari.script ({
 	  
 	  'Identificarlaestructuracontable': [
 		  
+	       'show background decisiones at left with fadeIn',
+		  
 	       'show character t brava at center with fadeIn',
 	     
 	       't: Querido Aprendiz',
@@ -108,9 +90,16 @@ monogatari.script ({
 	  
 	  'Conocernormativavigente': [
 		  
-	       'show character t feliz at center with fadeIn',
+	      'show character t feliz at center with fadeIn',
 	     
-	       't: Querido Aprendiz',
+	      't: Querido Aprendiz',
+		  
+		   
+               't: Las Normas Internacionales de información financiera constituyen el conjunto de normas contables,',
+               't: con mayor aceptación a nivel mundial Es regular la preparación de información transparente y objetiva.',
+               't: Dichas Normas pretenden generar un lenguaje universal comprensible para las empresas nacionales e internacionales',
+
+	 
                't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
                't: financiera vigente en Colombia específicamente, todo lo referente a Normas Internacionales de Información Financiera NIIF', 
                't: su objetivo e identificar el organismo emisor',
@@ -119,11 +108,13 @@ monogatari.script ({
 	           ], 
 	
 	'Politicas contables':[
-		  
-	       'show character t brava at center with fadeIn',
-	     
-	       't: Querido Aprendiz',
 		
+	       't: Estimado aprendiz,',
+               't: Ya tiene identificada la estructura contable de su  empresa,', 
+	       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
+	       't: aplicación de las políticas contables  conforme a los lineamientos de las NIIF para PYMES', 
+
+	    
 		'end',
 	            ],
 		
