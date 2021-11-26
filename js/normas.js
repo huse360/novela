@@ -16,7 +16,7 @@ monogatari.script ({
 	        'show character t feliz at center with fadeIn',
 	 
             't: A continuación vamos a evaluar sus conocimientos en,',
-            't: Normativa comercial, contable y financiera vigente y Políticas contables.',
+            't: Normativa comercial, contable y financiera vigente y políticas contables.',
 	 
                 'hide character t normal with fadeOut', 
 	    
@@ -88,7 +88,7 @@ monogatari.script ({
 		  
                't: Una vez identificados los marco normativo contenidos en del DUR 2420/2015 específicamente los Grupo 1,2 y 3,',
                't: el siguiente paso es identificar la estructura contable aplicable a su empresa.',
-               't: De acuerdo al proyecto formativo usted debe tener como referencia el marco normativo',
+               't: De acuerdo al proyecto formativo, usted debe tener como referencia el marco normativo',
                't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
                't: requisitos para ser catalogadas como pequeña y mediana empresa',
 		  
@@ -104,13 +104,14 @@ monogatari.script ({
 	      't: Querido Aprendiz',
 		  
 		   
-               't: Las Normas Internacionales de información financiera constituyen el conjunto de normas contables,',
-               't: con mayor aceptación a nivel mundial Es regular la preparación de información transparente y objetiva.',
-               't: Dichas Normas pretenden generar un lenguaje universal comprensible para las empresas nacionales e internacionales',
+               't: Las Normas Internacionales de Información Financiera constituyen el conjunto de normas contables,',
+               't: con mayor aceptación a nivel mundial, su objetivo es regular la preparación de información transparente y objetiva.',
+               't: estas normas pretenden generar un lenguaje universal y comprensible para las empresas nacionales e internacionales',
 
-	 
+	      'show background decisiones at left with fadeIn',
+		  
                't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
-               't: financiera vigente en Colombia específicamente, todo lo referente a Normas Internacionales de Información Financiera NIIF', 
+               't: financiera vigente en Colombia específicamente, todo lo referente a las NIIF', 
                't: su objetivo e identificar el organismo emisor',
 		   
 	       'end',
