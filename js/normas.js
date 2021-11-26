@@ -2,16 +2,16 @@ monogatari.script ({
 
  'Start_Normas': [
 	    
-	     'show background global at left with fadeIn', 
+	        'show background global at left with fadeIn', 
 	   
-	     'show character t feliz at left with fadeIn', 
+	        'show character t feliz at left with fadeIn', 
 	   
 	    't: Estimado Aprendiz,',
 	    
 	    't: La globalización y el ritmo actual del mundo exigen, cada vez con mayor fuerza, un idioma universal,',
 	    't: sobre todo en cuestiones de negocios y finanzas.', 
 	   
-	    'show character t triste at right with fadeIn', 
+	        'show character t triste at right with fadeIn', 
 	    
 	    't: La información confiable y comparable en el ámbito financiero,', 
             't: es necesaria para que en las empresas se tomen las mejores decisiones.',
@@ -44,7 +44,7 @@ monogatari.script ({
 	             'Do': 'jump Conocernormativavigente'
 	           },
 		    
-		   'p3': {
+		   'p4': {
 	             'Text': 'Crear politicas contables',
 	             'Do': 'jump Crearpoliticascontables'
 	           },
@@ -57,11 +57,9 @@ monogatari.script ({
 	 
 	      
 	    
-
-	  
 	   'Definirmarcoconceptualaplicable': [
 		   
-	       'show character t brava at center with fadeIn',
+	           'show character t brava at center with fadeIn',
 	     
 	       't: Querido Aprendiz',
                't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
@@ -74,9 +72,9 @@ monogatari.script ({
 	  
 	  'Identificarlaestructuracontable': [
 		  
-	       'show background decisiones at left with fadeIn',
+	           'show background decisiones at left with fadeIn',
 		  
-	       'show character t brava at center with fadeIn',
+	           'show character t brava at center with fadeIn',
 	     
 	       't: Querido Aprendiz',
                't: Una vez identificados los marco normativo contenidos en del DUR 2420/2015 específicamente los Grupo 1,2 y 3,',
@@ -90,7 +88,7 @@ monogatari.script ({
 	  
 	  'Conocernormativavigente': [
 		  
-	      'show character t feliz at center with fadeIn',
+	          'show character t feliz at center with fadeIn',
 	     
 	      't: Querido Aprendiz',
 		  
@@ -107,7 +105,9 @@ monogatari.script ({
 	       'end',
 	           ], 
 	
-	'Politicas contables':[
+	  'Politicascontables':[
+		  
+		   'show character t brava at center with fadeIn',
 		
 	       't: Estimado aprendiz,',
                't: Ya tiene identificada la estructura contable de su  empresa,', 
