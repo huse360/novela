@@ -45,6 +45,8 @@ monogatari.script ({
 	  ],
 	  
 	   'Normativavigente': [
+		   
+		    'show background global at left with fadeIn',
 	     
 	       {
 	       'Choice': {
@@ -80,6 +82,8 @@ monogatari.script ({
 
 	  
 	   'Definirmarcoconceptualaplicable': [
+		   
+	       'show character t brava at center with fadeIn',
 	     
 	       't: Querido Aprendiz',
                't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
@@ -89,6 +93,8 @@ monogatari.script ({
 	       'end',
 	             ], 
 	  'Identificarlaestructuracontable': [
+		  
+	       'show character t brava at center with fadeIn',
 	     
 	       't: Querido Aprendiz',
                't: Una vez identificados los marco normativo contenidos en del DUR 2420/2015 específicamente los Grupo 1,2 y 3,',
@@ -101,6 +107,8 @@ monogatari.script ({
 	             ], 
 	  
 	  'Conocernormativavigente': [
+		  
+	       'show character t feliz at center with fadeIn',
 	     
 	       't: Querido Aprendiz',
                't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
