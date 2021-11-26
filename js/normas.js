@@ -24,10 +24,6 @@ monogatari.script ({
 	         
 	           'Dialog': 't: Querido Aprendiz, constituida su empresa seleccione el paso a seguir',
 	         
-	         {
-	       'Choice': {
-	         
-	           'Dialog': 't: Aprendiz, constituida su empresa seleccione el paso a seguir',
 	         
 	           'p1': {
 	             'Text': 'Definir marco conceptual aplicable',
