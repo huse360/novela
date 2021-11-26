@@ -115,8 +115,7 @@ monogatari.script ({
                't: financiera vigente en Colombia específicamente, todo lo referente a Normas Internacionales de Información Financiera NIIF', 
                't: su objetivo e identificar el organismo emisor', 
 		  
-		  'jump Definirmarcoconceptualaplicable'
-
+		 
 	       'end',
 	             ], 
 	 
