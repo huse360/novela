@@ -40,8 +40,6 @@ monogatari.script ({
 	    },  
 	    
 	            'end',
-	
-	    
 	  ],
 	  
 	   'Normativavigente': [
@@ -91,7 +89,7 @@ monogatari.script ({
                't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
 		 
 	       'end',
-	             ],
+	           ],
 
 	  
 	  'Identificarlaestructuracontable': [
@@ -106,7 +104,7 @@ monogatari.script ({
                't: requisitos para ser catalogadas como pequeña y mediana empresa',
 		  
 	       'end',
-	             ], 
+	           ], 
 	  
 	  'Conocernormativavigente': [
 		  
@@ -118,7 +116,7 @@ monogatari.script ({
                't: su objetivo e identificar el organismo emisor',
 		   
 	       'end',
-	             ], 
+	           ], 
 	
 	'Politicas contables':[
 		  
@@ -127,7 +125,7 @@ monogatari.script ({
 	       't: Querido Aprendiz',
 		
 		'end',
-	             ],
+	            ],
 		
 	 
 	  
