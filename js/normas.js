@@ -89,9 +89,13 @@ monogatari.script ({
                't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
                't: el siguiente paso es definir el marco conceptual contable y financiero aplicable a su empresa,',
                't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
-
+		   
+	          'jump Identificarlaestructuracontable'
+		   
 	       'end',
-	             ], 
+	             ],
+
+	  
 	  'Identificarlaestructuracontable': [
 		  
 	       'show character t brava at center with fadeIn',
@@ -103,6 +107,8 @@ monogatari.script ({
                't: del grupo 2 normas NIIF para PYMES, por lo cual es necesario Identificar si su empresa cumple con los', 
                't: requisitos para ser catalogadas como pequeña y mediana empresa',
 		  
+		  'jump Politicascontables'
+		  
 	       'end',
 	             ], 
 	  
@@ -113,11 +119,22 @@ monogatari.script ({
 	       't: Querido Aprendiz',
                't: Una vez constituida su empresa el siguiente paso es conocer la normativa comercial, contable y',
                't: financiera vigente en Colombia específicamente, todo lo referente a Normas Internacionales de Información Financiera NIIF', 
-               't: su objetivo e identificar el organismo emisor', 
+               't: su objetivo e identificar el organismo emisor',
 		  
-		 
+		  'jump Definirmarcoconceptualaplicable'
+		  
 	       'end',
 	             ], 
+	
+	'Politicas contables':[
+		  
+	       'show character t brava at center with fadeIn',
+	     
+	       't: Querido Aprendiz',
+		
+		'end',
+	             ],
+		
 	 
 	  
 	});
