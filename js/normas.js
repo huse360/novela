@@ -12,9 +12,13 @@ monogatari.script ({
 	    't: sobre todo en cuestiones de negocios y finanzas.', 
 	    't: La información confiable y comparable en el ámbito financiero,', 
             't: es necesaria para que en las empresas se tomen las mejores decisiones.',
+	 
+	        'show character t feliz at center with fadeIn',
+	 
             't: A continuación vamos a evaluar sus conocimientos en,',
             't: Normativa comercial, contable y financiera vigente y Políticas contables.',
-
+	 
+                'hide character t normal with fadeOut', 
 	    
 	    {
 	       'Choice': {
@@ -52,7 +56,7 @@ monogatari.script ({
 	    
 	   'Definirmarcoconceptualaplicable': [
 		   
-		   'show background global at left with fadeIn', 
+		   'show background auditoria at left with fadeIn', 
 	   
 	           'show character t brava at center with fadeIn',
 	     
@@ -67,7 +71,7 @@ monogatari.script ({
 	  
 	  'Identificarlaestructuracontable': [
 		  
-	           'show background decisiones at left with fadeIn',
+	           'show background estructura at left with fadeIn',
 		  
 	           'show character t brava at center with fadeIn',
 	     
@@ -83,7 +87,7 @@ monogatari.script ({
 	  
 	  'Conocernormativavigente': [
 		  
-		  'show background global at left with fadeIn', 
+		  'show background internacional at left with fadeIn', 
 	   
 	          'show character t feliz at center with fadeIn',
 	     
@@ -104,7 +108,7 @@ monogatari.script ({
 	
 	  'Politicascontables':[
 		  
-		   'show background global at left with fadeIn', 
+		   'show background empresarial at left with fadeIn', 
 	   
 		   'show character t brava at center with fadeIn',
 		
