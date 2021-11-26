@@ -64,6 +64,8 @@ monogatari.script ({
 		   
 		   'hide character t normal with fadeOut', 
 		   
+		   'show character t normal at left with fadeIn', 
+		   
                't: Ya usted posee el conocimiento necesario acerca de las Normas Internacionales de Información Financiera,', 
                't: el siguiente paso es definir el marco conceptual contable y financiero aplicable a su empresa,',
                't: de acuerdo a actividad comercial, necesidades de la empresa y la normativa vigente',
@@ -81,6 +83,8 @@ monogatari.script ({
 	       't: Querido Aprendiz',
 		  
 		   'hide character t normal with fadeOut', 
+		  
+		   'show character t normal at left with fadeIn', 
 		  
                't: Una vez identificados los marco normativo contenidos en del DUR 2420/2015 específicamente los Grupo 1,2 y 3,',
                't: el siguiente paso es identificar la estructura contable aplicable a su empresa.',
@@ -120,7 +124,9 @@ monogatari.script ({
 		
 	       't: Estimado aprendiz,',
 		  
-		   'hide character t normal with fadeOut', 
+		   'hide character t normal with fadeOut',
+		  
+		   'show character t normal at left with fadeIn', 
 		  
                't: Ya tiene identificada la estructura contable de su  empresa,', 
 	       't: el siguiente paso es conocer las normas a tener en cuenta para la selección y',
